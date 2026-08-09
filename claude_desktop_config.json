@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "my-custom-python-tools": {
+      "command": "python",
+      "args": [
+        "/ABSOLUTE/PATH/TO/my_server.py"
+      ]
+    },
+    "local-filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/Users/yourusername/Desktop"
+      ]
+    }
+  }
+}
